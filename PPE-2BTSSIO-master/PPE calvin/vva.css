@@ -1,0 +1,25 @@
+body {
+  background: #FFFFFF;
+}
+div.containerIndex{
+  background-color: #ff914d;
+  width:  500px;
+  height: 500px;
+  position: relative;
+  margin-top: 10%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  padding: 1%;
+  border-radius: 20px;
+}
+
+img.logoIndex{
+  position: relative;
+  margin-left: 40%;
+  margin-bottom: 60%;
+  margin-right: auto;
+}
+#insertanim{
+
+}
