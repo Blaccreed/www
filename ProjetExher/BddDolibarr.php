@@ -10,5 +10,4 @@ while($tableau = mysqli_fetch_array($resultat))
   fwrite($file,$adher);
 }
 fclose($file);
-#lastname, firstname, address, zip, town, email,phonemobile
  ?>
