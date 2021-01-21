@@ -13,4 +13,3 @@ function BddConnect()
   }
 }
  ?>
-Z
