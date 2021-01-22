@@ -1,5 +1,6 @@
 <?php
 include("fonctions.php");
+require_once('vendor/autoload.php');
 $con = BddConnect();
 $requete = "SELECT lastname, firstname, address, zip, town, email,phone_mobile FROM llx_adherent";
 $resultat = mysqli_query($con, $requete);
@@ -10,4 +11,5 @@ while($tableau = mysqli_fetch_array($resultat))
   fwrite($file,$adher);
 }
 fclose($file);
+
  ?>
