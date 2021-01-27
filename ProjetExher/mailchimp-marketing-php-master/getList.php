@@ -1,5 +1,7 @@
 <?php
+ini_set('display_errors', 'on');
 require_once('vendor/autoload.php');
+
 
 $client = new MailchimpMarketing\ApiClient();
 $client->setConfig([
@@ -7,5 +9,9 @@ $client->setConfig([
     'server' => 'us7',
 ]);
 
-$response = $client->lists->batchListMembers("list_id", ["members" => [[]]]);
+$response = $client->lists->getListMembersInfo("fa6285ac5c");
 print_r($response);
+
+
+
+ ?>

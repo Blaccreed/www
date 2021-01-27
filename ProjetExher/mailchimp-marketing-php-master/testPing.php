@@ -4,7 +4,7 @@ require_once('vendor/autoload.php');
 $mailchimp = new MailchimpMarketing\ApiClient();
 
 $mailchimp->setConfig([
-  'apiKey' => '7f72aba290a00e66cd010a38151896d6-us7',
+  'apiKey' => 'f5ea8866c679a73df3849f6cc90f9e41-us7',
   'server' => 'us7'
 ]);
 
